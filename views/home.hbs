@@ -7,11 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>{{ pageTitle }}</h1>
-    <h2>{{ welcomeMessage }}</h2>
+    <h1>{{> header }}</h1>
+    <h2>{{ screamIt welcomeMessage }}</h2>
 
-    <footer>
-        <p>Copyright {{ currentYear }}</p>
-    </footer>
+    {{> footer }}
 </body>
 </html>
